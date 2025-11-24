@@ -1,0 +1,80 @@
+@import 'bootstrap';
+body{
+    font-family: inter
+}
+
+a{
+    text-decoration: none;
+    color: #5E5E63;
+    font-size: 20px !important;
+}
+
+/* Первый блок (навигация) */
+.first{
+    height: 700px;
+    background-size: 100% !important;
+    background: url('/public/nav/bg.svg');
+    background-repeat: no-repeat;
+}
+.title{
+    width: 65%;
+    font-weight: 500;
+    font-size: 55px;
+}
+.NavButton{
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.NavButton:hover{
+    /* F8F5F3 */
+    border: 1px solid rgb(44, 44, 44);
+    background-color: #f7ece6;
+    color: rgb(50, 46, 46);
+    transition: 0.3s;
+}
+
+
+/* Второй блок */
+.second{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    width: 6%;
+    height: 3px;
+    border-radius: 15px;
+    opacity: 1;
+    background-color: black;
+}
+.text1{
+    /* width: 80%; */
+    font-size: 18px;
+}
+.ourServices{
+    gap: 2%;
+}
+
+
+/* Третий блок */
+.third{
+    min-height: 80vh;
+}
+
+
+/* Четвертый блок */
+.fourth{
+    height: 800px;
+    margin-top: 5%;
+}
+
+.form-control:focus{
+    border-color: rgb(53, 53, 53) !important;
+    box-shadow: 0 0 0 0.25rem rgba(47, 47, 47, 0.25);
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("/src/assets/Inter-VariableFont_opsz\,wght.ttf");
+}
